@@ -11,3 +11,13 @@ public class AddressBook {
 		friends = new Contact[10];
 		numfriends = 0;
     }
+
+	Public void addContact(Contact c){
+		friends[numfriends] = c;
+		numFriends++;
+	}
+	
+	public void printContacts(){
+		for(Conteact c: AddressBook)
+			friends[cc].printContact();
+	}
